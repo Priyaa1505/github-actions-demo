@@ -15,4 +15,4 @@ jobs:
         run: pwd
 
       - name: Show list of files
-        run: ls -l
+        run: ls -la
