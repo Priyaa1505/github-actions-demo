@@ -1,17 +1,18 @@
-name: My First github actions file 
+name: My First GitHub Actions File
+
 on:
- push:
+  push:
 
 jobs:
- build:
-  runs-on: ubuntu-Latest 
+  build:
+    runs-on: ubuntu-latest
 
-steps: 
--name: Say hello 
-run: echo "Hello prii github actions is working"
+    steps:
+      - name: Say hello
+        run: echo "Hello Prii, GitHub Actions is working"
 
--name: show current working directory 
-run: pwd
+      - name: Show current working directory
+        run: pwd
 
--name: show list of files 
-run: ls-l 
+      - name: Show list of files
+        run: ls -l
